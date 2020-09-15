@@ -1,0 +1,16 @@
+.txt-rotate>.wrap {
+    border-right: 0.2rem solid #666;
+    animation: wrap 1s infinite;
+}
+
+@keyframes wrap {
+
+    from,
+    to {
+        border-color: #666;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}

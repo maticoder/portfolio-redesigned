@@ -1,0 +1,342 @@
+@import "../../util/colors";
+
+#hero .hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding-top: 3rem;
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        flex: 1;
+        opacity: 0;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+            h1 {
+                font-size: 5rem;
+                font-weight: 100;
+                color: $text-color;
+                line-height: 110%;
+                max-width: 34rem;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 200;
+                color: $text-color;
+                line-height: 140%;
+                max-width: 34rem;
+            }
+
+            a {
+                font-size: 1.4rem;
+                font-weight: 200;
+                color: black;
+                background-color: $main-color;
+                padding: 1.2rem 2.4rem;
+                margin-top: 3rem;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: -.7rem;
+                    left: .5rem;
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid black;
+                    transition: all .5s ease;
+                }
+
+                &:hover::before {
+                    top: .5rem;
+                    left: -.7rem;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 2rem;
+        flex: 1;
+        opacity: 0;
+
+        .img-container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 45rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #hero .hero {
+        margin-top: 3.5rem;
+        padding-top: 3.5rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 6rem;
+                    max-width: 40rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                    max-width: 37rem;
+                }
+
+                a {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 50rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #hero .hero {
+        margin-top: 4rem;
+        padding-top: 4rem;
+
+        .top {
+            margin-bottom: 3rem;
+
+            .content {
+                h1 {
+                    font-size: 7rem;
+                    max-width: 50rem;
+                    margin-bottom: 3rem;
+                }
+
+                p {
+                    font-size: 1.7rem;
+                    max-width: 45rem;
+                }
+
+                a {
+                    font-size: 1.6rem;
+                    margin-top: 4rem;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 3rem;
+
+            .img-container {
+                max-width: 60rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #hero .hero {
+        flex-direction: row;
+        margin-top: 2rem;
+        padding-top: 2rem;
+
+        .top {
+            margin-bottom: 0;
+            justify-content: center;
+
+            .content {
+                text-align: left;
+                align-items: flex-start;
+
+                h1 {
+                    font-size: 5.5rem;
+                    margin-bottom: .5rem;
+                    // margin-top: -.5rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    max-width: 44rem;
+                }
+
+                a {
+                    font-size: 1.4rem;
+                    padding: 1rem 2rem;
+                    margin-top: 2rem;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 0rem;
+            display: flex;
+            justify-content: center;
+
+            .img-container {
+                max-width: 45rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #hero .hero {
+        .top {
+            .content {
+                h1 {
+                    font-size: 6rem;
+                }
+
+                p {
+                    // font-size: 1.6rem;
+                    // max-width: 48rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 50rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero .hero {
+        margin-top: 3rem;
+        padding-top: 3rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 7rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+
+                a {
+                    font-size: 1.5rem;
+                    margin-top: 3rem;
+                    padding: 1.1rem 2.2rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 55rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #hero .hero {
+        margin-top: 4rem;
+        padding-top: 4rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 8rem;
+                    max-width: 60rem;
+                }
+
+                p {
+                    font-size: 1.7rem;
+                    max-width: 47rem;
+                }
+
+                a {
+                    font-size: 1.6rem;
+                    padding: 1.2rem 2.4rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 60rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #hero .hero {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 9rem;
+                    max-width: 70rem;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                    max-width: 51rem;
+                }
+
+                a {
+                    font-size: 1.7rem;
+                    padding: 1.3rem 2.6rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 65rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #hero .hero {
+        .top {
+            .content {
+                h1 {
+                    font-size: 10rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                    max-width: 56rem;
+                }
+
+                a {
+                    font-size: 1.8rem;
+                    padding: 1.4rem 2.8rem;
+                    margin-top: 3.5rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 100%;
+            }
+        }
+    }
+}

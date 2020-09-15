@@ -1,0 +1,371 @@
+#about .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+#about .about .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: 0;
+}
+
+#about .about .top .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#about .about .top .content h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  color: black;
+  line-height: 110%;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+
+#about .about .top .content p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  line-height: 140%;
+  max-width: 34rem;
+}
+
+#about .about .top .content a.link {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: black;
+  background-color: #FF6498;
+  padding: 1.2rem 2.4rem;
+  margin-top: 3rem;
+  position: relative;
+}
+
+#about .about .top .content a.link::before {
+  content: "";
+  position: absolute;
+  top: -.7rem;
+  left: .5rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#about .about .top .content a.link:hover::before {
+  top: .5rem;
+  left: -.7rem;
+}
+
+#about .about .top .content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2rem;
+}
+
+#about .about .top .content .social .icon {
+  margin: 1rem;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+#about .about .top .content .social .icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#about .about .bottom {
+  margin-top: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: 0;
+}
+
+#about .about .bottom .img-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #about .about {
+    margin-top: 5.5rem;
+    padding-top: 5.5rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 5rem;
+    max-width: 25rem;
+  }
+  #about .about .top .content p {
+    font-size: 1.6rem;
+    max-width: 37rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.5rem;
+  }
+  #about .about .bottom .img-container {
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #about .about {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #about .about .top {
+    margin-bottom: 3rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 5.5rem;
+    max-width: 30rem;
+    margin-bottom: 3rem;
+  }
+  #about .about .top .content p {
+    font-size: 1.7rem;
+    max-width: 44rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 3rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1.5rem;
+  }
+  #about .about .bottom {
+    margin-top: 3rem;
+  }
+  #about .about .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #about .about {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  #about .about .top {
+    margin-bottom: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about .top .content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+  #about .about .top .content p {
+    font-size: 1.5rem;
+    max-width: 43rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 1rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1rem;
+  }
+  #about .about .top .content .social .icon svg {
+    width: 2.4rem;
+    height: auto;
+  }
+  #about .about .bottom {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about .bottom .img-container {
+    max-width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #about .about .top .content h1 {
+    font-size: 4.5rem;
+  }
+  #about .about .bottom .img-container {
+    max-width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #about .about {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+  }
+  #about .about .top .content p {
+    font-size: 1.6rem;
+    max-width: 46rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 1.1rem 2.2rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 2rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1rem;
+  }
+  #about .about .top .content .social .icon svg {
+    width: 2.6rem;
+    height: auto;
+  }
+  #about .about .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #about .about {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 6rem;
+  }
+  #about .about .top .content p {
+    font-size: 1.7rem;
+    max-width: 50rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.4rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 2rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1.5rem;
+  }
+  #about .about .top .content .social .icon svg {
+    width: 2.8rem;
+    height: auto;
+  }
+  #about .about .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #about .about {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 7rem;
+  }
+  #about .about .top .content p {
+    font-size: 1.8rem;
+    max-width: 52rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.7rem;
+    padding: 1.3rem 2.6rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 2rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1.5rem;
+  }
+  #about .about .top .content .social .icon svg {
+    width: 3rem;
+    height: auto;
+  }
+  #about .about .bottom .img-container {
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #about .about {
+    margin-top: 10rem;
+    padding-top: 10rem;
+  }
+  #about .about .top .content h1 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+  }
+  #about .about .top .content p {
+    font-size: 2rem;
+    max-width: 57rem;
+  }
+  #about .about .top .content a.link {
+    font-size: 1.8rem;
+    padding: 1.4rem 2.8rem;
+    margin-top: 3.5rem;
+  }
+  #about .about .top .content .social {
+    margin-top: 2.5rem;
+  }
+  #about .about .top .content .social .icon {
+    margin: 1rem 1.5rem;
+  }
+  #about .about .top .content .social .icon svg {
+    width: 3.2rem;
+    height: auto;
+  }
+  #about .about .bottom .img-container {
+    max-width: 100%;
+  }
+}

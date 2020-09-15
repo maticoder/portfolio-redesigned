@@ -1,0 +1,198 @@
+#contact .contact {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#contact .contact h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  color: black;
+  line-height: 110%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#contact .contact p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  line-height: 140%;
+  max-width: 32rem;
+}
+
+#contact .contact a {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: black;
+  background-color: #FF6498;
+  padding: 1.2rem 2.4rem;
+  margin-top: 3rem;
+  position: relative;
+}
+
+#contact .contact a::before {
+  content: "";
+  position: absolute;
+  top: -.7rem;
+  left: .5rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#contact .contact a:hover::before {
+  top: .5rem;
+  left: -.7rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #contact .contact {
+    margin-top: 5.5rem;
+    padding-top: 5.5rem;
+  }
+  #contact .contact h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  #contact .contact p {
+    font-size: 1.6rem;
+    max-width: 37rem;
+  }
+  #contact .contact a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #contact .contact {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #contact .contact h1 {
+    font-size: 5.5rem;
+    margin-bottom: 2.5rem;
+  }
+  #contact .contact p {
+    font-size: 1.7rem;
+    max-width: 48rem;
+  }
+  #contact .contact a {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #contact .contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  #contact .contact h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  #contact .contact p {
+    font-size: 1.5rem;
+    max-width: 52rem;
+  }
+  #contact .contact a {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #contact .contact h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #contact .contact {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #contact .contact h1 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+  }
+  #contact .contact p {
+    font-size: 1.6rem;
+    max-width: 54rem;
+  }
+  #contact .contact a {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 1.1rem 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #contact .contact {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #contact .contact h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+  #contact .contact p {
+    font-size: 1.7rem;
+    max-width: 58rem;
+  }
+  #contact .contact a {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.4rem;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #contact .contact {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #contact .contact h1 {
+    font-size: 7rem;
+  }
+  #contact .contact p {
+    font-size: 1.8rem;
+    max-width: 72rem;
+  }
+  #contact .contact a {
+    font-size: 1.7rem;
+    padding: 1.3rem 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #contact .contact {
+    margin-top: 10rem;
+    padding-top: 10rem;
+  }
+  #contact .contact h1 {
+    font-size: 8rem;
+  }
+  #contact .contact p {
+    font-size: 2rem;
+    max-width: 74rem;
+  }
+  #contact .contact a {
+    font-size: 1.8rem;
+    padding: 1.4rem 2.8rem;
+  }
+}

@@ -1,0 +1,208 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30rem;
+  padding: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  margin: 1.5rem 0;
+  -webkit-transition: all 400ms cubic-bezier(0.164, 0.317, 0.38, 0.767) 0ms;
+  transition: all 400ms cubic-bezier(0.164, 0.317, 0.38, 0.767) 0ms;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+          transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-transform: translate3d(0px, -20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(-1deg, 1deg);
+          transform: translate3d(0px, -20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(-1deg, 1deg);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  margin-bottom: 1rem;
+  width: 30px;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.card .techs {
+  margin-bottom: 2rem;
+}
+
+.card .techs .tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.card .techs .tech span {
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .card {
+    padding: 4rem;
+    margin: 1rem;
+  }
+  .card img {
+    width: 32px;
+  }
+  .card h2 {
+    font-size: 2.2rem;
+  }
+  .card h3 {
+    font-size: 2rem;
+  }
+  .card p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    padding: 3.5rem;
+    margin: 1.5rem;
+  }
+  .card img {
+    width: 34px;
+  }
+  .card h2 {
+    font-size: 2.4rem;
+  }
+  .card h3 {
+    font-size: 2.2rem;
+  }
+  .card p {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    padding: 4rem;
+    margin: 1rem;
+  }
+  .card img {
+    width: 30px;
+  }
+  .card h2 {
+    font-size: 2rem;
+  }
+  .card h3 {
+    font-size: 1.8rem;
+  }
+  .card p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    padding: 4rem;
+  }
+  .card img {
+    width: 32px;
+  }
+  .card h2 {
+    font-size: 2.2rem;
+  }
+  .card h3 {
+    font-size: 2rem;
+  }
+  .card p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .card {
+    padding: 3.5rem;
+    margin: 1.5rem;
+  }
+  .card img {
+    width: 34px;
+  }
+  .card h2 {
+    font-size: 2.4rem;
+  }
+  .card h3 {
+    font-size: 2.2rem;
+  }
+  .card p {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .card {
+    padding: 3rem;
+    margin: 1.5rem;
+  }
+  .card img {
+    width: 38px;
+  }
+  .card h2 {
+    font-size: 2.8rem;
+  }
+  .card h3 {
+    font-size: 2.3rem;
+  }
+  .card p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .card {
+    padding: 3rem;
+  }
+  .card img {
+    width: 40px;
+  }
+  .card h2 {
+    font-size: 3rem;
+  }
+  .card h3 {
+    font-size: 2.4rem;
+  }
+  .card p {
+    font-size: 1.8rem;
+  }
+}

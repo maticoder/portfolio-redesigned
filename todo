@@ -1,0 +1,30 @@
+✓ klikniecie na jakis element nav chowa nav
+✓ dodac do body.active media queries
+✓ zmienic linki w navbar na hash
+moze zwiekszyc odleglosci miedzy elementami na media queries
+✓ dodac gsap'a
+✓ dodac smooth scrolling
+✓ dodac ladne animacje skills
+✓ zwiekszyc odstep miedzy my skill dla mniejszych rozdzielczosci
+nie cofac wezyka
+dodac ladniejsze animacje w skills
+druga animacja latajace pierdoly
+custom scrollbar
+custom pointer
+✓ naprawic scrolling
+dodac zmieniajacy sie napis
+zmienic font-size na wiekszy na mobile
+zmienic line opacity na 0 w scss
+✓ w skill animations zmienic na funkcje
+caly skill i kropeczki w skill zeby sie inaczej pojawialy
+ustawic poczatkowe wartosci w scss dla gsap'a
+dodac flagi w footerze
+zrobic tak, zeby linia w skill nie wracala
+zwiekszyc odstepy dla contact
+zwiekszyc fonf weight na 200
+reload wezyka jak zmieni sie na mobile
+zamiast a i link dodac smooth-scrollbar function
+na reload cofac na sama gore zeby nie blokowalo
+dac wszystkiemu co animowane opacity na 0
+✓ scrolling navbar dla mobile
+dodac mq do context
